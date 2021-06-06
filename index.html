@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href='table.css'>
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">Hi! <br>I am <br> Shokhrukh</h1>
+            
+                <a href="#contact"><button class="btn">Hire me</button></a>
+        </div>
+    </section>
+    <section id="about">
+
+        <h1 class="big">ABOUT ME</h1>
+        <div id="pic">
+            <img src="Images/AboutMe/img2.JPG" alt="">
+            <div id="intro">
+                <p class="text">My name is Shokhrukh and I am 22 years old. 
+                    I live in Chuncheon and study here as a third year education
+                    student at the Kangwon National University. My major is computer science and I am learning it. My interest related to web development especially. Because, once I learned python basics, I decided to learn Django frameworks in order to be professional backend developer.
+                     My hobbies are playing chess, football and going to the gym.
+                    I am a talkative and friendly person. Feel free to contact me!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h1 class="big">My portfolio and achievements</h1>
+        <div class="row">
+           
+                <img src="Images/Portfolio/pimg1.jpg" alt="">
+                <img src="Images/Portfolio/pimg7.png" alt="">
+                <img src="Images/Portfolio/pimg2.png" alt="">
+            
+            
+            <div class="box">
+                <h4>During the winter holiday, I took this course and really appreciated from it.</h4>
+            </div>
+            <div class="box">
+                <h4>This is a blogpost website. In this website, you can write your own blogpost and upload it.<br><a href="https://blogpostapp1.herokuapp.com/">  Click here...</a></h4>
+            </div>
+            <div class="box">
+                <h4>In this website, You can create group and send messages to each others.<br><a href="https://blogbyshon.herokuapp.com/">Click here...</a></h4>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name:">
+            <textarea name="msg" id="msg" cols="30" rows="10"
+            placeholder="Enter your message:"></textarea>
+            <input type="submit" value="SEND" id="send">        
+        </form>
+    </section>
+</body>
+</html>
